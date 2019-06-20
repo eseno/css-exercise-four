@@ -1,4 +1,51 @@
 body {
   background-color: #dadada;
-  font-size: 10px;
+  font-size: 14px;
+  width: 480px;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: sans-serif;
+  width: 100%;
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+h2 {
+  font-size: 1.3em;
+  width: 100%;
+  padding-left: 5%;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+div{
+  position: relative;
+}
+
+@media screen and (min-width: 2048px){
+   div {
+    margin: 1%;
+    width: 48%;
+  }
+}
+
+@media screen and (min-width: 2304px){
+   div {
+    margin: 1%;
+    width: 23%;
+  }
+}
+
+img {
+  width: 100%;
+  padding-left: 5%;
+  padding-bottom: 5%;
 }
