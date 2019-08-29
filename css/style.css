@@ -21,31 +21,33 @@ h2 {
   font-size: 1.3em;
   width: 100%;
   padding-left: 5%;
-  position: absolute;
+  position: relative;
   top: 30px;
   left: 30px;
-}
-
-div{
-  position: relative;
-}
-
-@media screen and (min-width: 2048px){
-   div {
-    margin: 1%;
-    width: 48%;
-  }
-}
-
-@media screen and (min-width: 2304px){
-   div {
-    margin: 1%;
-    width: 23%;
-  }
 }
 
 img {
   width: 100%;
   padding-left: 5%;
   padding-bottom: 5%;
+}
+
+div{
+  float: left;
+  width: 98%;
+  margin: 1%;
+}
+
+@media screen and (min-width: 575px){
+   div {
+    margin: 1%;
+    width: 48%;
+  }
+}
+
+@media screen and (min-width: 991px){
+   div {
+    margin: 1%;
+    width: 23%;
+  }
 }
