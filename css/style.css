@@ -36,6 +36,24 @@ div{
   float: left;
   width: 98%;
   margin: 1%;
+  height: 100%;
+}
+
+div.preview_baku {
+  background-image: url("../images/baku.jpg");
+
+}
+
+div.preview_london {
+  background-image: url('../images/london.png');
+}
+
+div.preview_madrid {
+  background-image: url('../images/madrid.jpg');
+}
+
+div.preview_rome {
+  background-image: url('../images/rome.jpg');
 }
 
 @media screen and (min-width: 575px){
