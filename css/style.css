@@ -26,34 +26,33 @@ h2 {
   left: 30px;
 }
 
-img {
-  width: 100%;
-  padding-left: 5%;
-  padding-bottom: 5%;
-}
 
 div{
   float: left;
   width: 98%;
   margin: 1%;
-  height: 100%;
+  height: 150px;
+
 }
 
 div.preview_baku {
   background-image: url("../images/baku.jpg");
-
+  background-size: cover;
 }
 
 div.preview_london {
   background-image: url('../images/london.png');
+  background-size: cover;
 }
 
 div.preview_madrid {
   background-image: url('../images/madrid.jpg');
+  background-size: cover;
 }
 
 div.preview_rome {
   background-image: url('../images/rome.jpg');
+  background-size: cover;
 }
 
 @media screen and (min-width: 575px){
