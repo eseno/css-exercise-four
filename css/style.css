@@ -1,7 +1,7 @@
 body {
   background-color: #dadada;
   font-size: 14px;
-  width: 480px;
+  width: 320px;
 }
 
 *, *:before, *:after {
@@ -27,43 +27,42 @@ h2 {
 }
 
 
-div{
-  float: left;
+.preview {
+  float:left;
   width: 98%;
-  margin: 1%;
-  height: 150px;
-
+  height: 250px;
+  margin: 5%
 }
 
-div.preview_baku {
+.baku {
   background-image: url("../images/baku.jpg");
   background-size: cover;
 }
 
-div.preview_london {
+.london {
   background-image: url('../images/london.png');
   background-size: cover;
 }
 
-div.preview_madrid {
+.madrid {
   background-image: url('../images/madrid.jpg');
   background-size: cover;
 }
 
-div.preview_rome {
+.rome {
   background-image: url('../images/rome.jpg');
   background-size: cover;
 }
 
 @media screen and (min-width: 575px){
-   div {
+   .preview {
     margin: 1%;
     width: 48%;
   }
 }
 
 @media screen and (min-width: 991px){
-   div {
+   .preview {
     margin: 1%;
     width: 23%;
   }
