@@ -1,7 +1,6 @@
 body {
   background-color: #dadada;
   font-size: 14px;
-  width: 320px;
 }
 
 *, *:before, *:after {
@@ -11,9 +10,9 @@ body {
 h1 {
   font-family: sans-serif;
   width: 100%;
-  padding-left: 30%;
-  padding-right: 30%;
-  padding-top: 5%;
+  padding-left: 25%;
+  padding-right: 10%;
+  padding-top: 10%;
   padding-bottom: 5%;
 }
 
@@ -55,15 +54,22 @@ h2 {
 }
 
 @media screen and (min-width: 575px){
+  .container {
+    margin: auto;
+    width: 500px;
+  }
    .preview {
     margin: 1%;
-    width: 48%;
+    width: 200px;
   }
 }
 
 @media screen and (min-width: 991px){
+  .container {
+    width: 1000px;
+  }
    .preview {
     margin: 1%;
-    width: 23%;
+    width: 200px;
   }
 }
